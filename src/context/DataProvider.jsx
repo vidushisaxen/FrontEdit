@@ -9,9 +9,7 @@ const DataProvider =()=>{
     const[js,setJs] = useState('');
 
     return(
-        <DataContext.Provider
-
-        >
+        <DataContext.Provider>
 
         </DataContext.Provider>
     )
