@@ -2,6 +2,7 @@ import { createContext, useState, usestate } from "react";
 
 const DataContext = createContext();
 
+
 const DataProvider =()=>{
 
     const[html,setHtml] = useState('');
@@ -11,7 +12,7 @@ const DataProvider =()=>{
     return(
         <DataContext.Provider>
 
-            
+
         </DataContext.Provider>
     )
 }
