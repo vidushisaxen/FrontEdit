@@ -2,7 +2,6 @@ import { createContext, useState, usestate } from "react";
 
 const DataContext = createContext();
 
-
 const DataProvider =()=>{
 
     const[html,setHtml] = useState('');
