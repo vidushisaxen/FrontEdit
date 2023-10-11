@@ -7,9 +7,7 @@ import './mainstyles.css';
 const Container = styled(AppBar)`
   background: #27374D;
 //   height:40px;
-
 `
-
 const Header = () => {
   return (
     <>
